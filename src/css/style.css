@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.background{
+    height: 100vh;
+    background: linear-gradient(120deg,#080487,#6c015a);
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    flex-wrap:wrap;
+}
+
+.relogio{
+    align-items: center;
+    margin: 20px;
+    width: 600px;
+    height: 200px;
+    gap: 5px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    background: transparent;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(5, 5, 5, 0.7);
+    overflow: hidden;
+    
+}
+
+.relogio .time{ 
+    border-radius: 9px;
+    height: 80%;
+    width: 29%;
+    display: flex;
+    flex-direction:column;
+    align-content:center;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    background: rgba(5, 5, 5, 0.9);
+    box-shadow: 5px 5px 15px rgba(5, 5, 5, 0.7);
+    letter-spacing: 7px;
+}
+
+.relogio span{
+font-weight: bolder;
+font-size: 40px;
+
+}
+
+.relogio span.tempo {
+   font-size: 8px;
+   position: relative;
+}
+
+.logo {
+    position: absolute;
+    bottom: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img{
+   width:200px;
+  margin-bottom: 50px;
+ 
+ 
+ 
+}
